@@ -1,0 +1,11 @@
+langchain-mcp-adapters
+langchain-openai
+fastapi
+langchain-core
+python-dotenv
+langchain
+uvicorn
+langchain_huggingface
+langchain_chroma
+sentence-transformers
+pydantic
