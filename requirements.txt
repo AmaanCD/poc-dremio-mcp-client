@@ -9,3 +9,4 @@ langchain_huggingface
 langchain_chroma
 sentence-transformers
 pydantic
+langchain_google_genai
