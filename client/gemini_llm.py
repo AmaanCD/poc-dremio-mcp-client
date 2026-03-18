@@ -11,6 +11,7 @@ def get_google_llm():
 
     __google_llm = ChatGoogleGenerativeAI(
         model = "gemini-3-flash-preview",
-        api_key = os.environ.get("GOOGLE_API_KEY")
+        api_key = os.environ.get("GOOGLE_API_KEY"),
+        temperature=0
     )
     return __google_llm
