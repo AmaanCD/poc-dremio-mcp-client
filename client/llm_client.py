@@ -7,7 +7,7 @@ def get_client():
 
     if __client is not None:
         return __client
-
+    print(settings.api_key)
     __client = ChatOpenAI(
         base_url="https://api.groq.com/openai/v1",
         temperature=0.0,
